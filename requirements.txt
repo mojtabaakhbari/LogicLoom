@@ -1,0 +1,9 @@
+# LogicLoom — Python 3.10+
+# Core (CLI / library):
+#   pip install -e logicloom_core
+
+# GUI — logicloom_ui (PyQt6 desktop app):
+PyQt6>=6.4.0
+PyQt6-WebEngine>=6.4.0
+
+# JS UI — no install needed, open index.html in any browser

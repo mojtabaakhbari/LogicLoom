@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logicloom"
+version = "0.1.0"
+description = "Boolean logic minimizer and equation explorer"
+requires-python = ">=3.10"
+authors = [{name = "Mojtaba Akhbari", email = "mojtabaakhbari.cs@gmail.com"}]
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/mojtabaakhbari"
+
+[project.scripts]
+logicloom = "logicloom.__main__:main"
